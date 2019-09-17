@@ -3,6 +3,7 @@ import os
 import playsound
 import gtts
 import googletrans
+import tempfile
 
 print("Enter some text in English and we'll translate and speak it in a different language!")
 for key, value in gtts.lang.tts_langs().items():   #a dict
